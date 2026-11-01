@@ -124,7 +124,7 @@ Steps in order:
 
    These small values are for debugging in Part B. Part C raises them to the real load.
 5. Right-click Virtual Users, Add, Logic Controller, Once Only Controller. Set Name to `Log in once per user`.
-6. Right-click `Log in once per user`, Add, Sampler, HTTP Request. Set Name to `Login`, Method to `POST`, Path to `/login`. Open the Parameters tab, click Add twice, and enter `username` with value `demo`, then `password` with value `demo1234`. Leave the Encode boxes unticked.
+6. Right-click `Log in once per user`, Add, Sampler, HTTP Request. Set Name to `Login`, Method to `POST`, Path to `/login`. Open the Parameters tab and click Add (the button sits below the table). Double-click the Name cell of the new row and type username. Double-click its Value cell and type demo. Click Add again. In the second row, type password in the Name cell and demo1234 in the Value cell. Press Enter after each entry. Leave URL Encode unticked.
 7. Right-click Virtual Users, Add, Sampler, HTTP Request. Set Name to `View task list`, Method to `GET`, Path to `/api/tasks`.
 8. Right-click Virtual Users, Add, Sampler, HTTP Request. Set Name to `Create task`, Method to `POST`, Path to `/api/tasks`. Open the Body Data tab and paste this line:
 
