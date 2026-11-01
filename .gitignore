@@ -1,0 +1,8 @@
+*.jtl
+report10/
+report25/
+report35/
+report50/
+report50b/
+jmeter.log
+__pycache__/
